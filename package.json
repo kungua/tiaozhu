@@ -1,0 +1,20 @@
+{
+  "name": "tiaozhu",
+  "version": "1.0.0",
+  "description": "跳珠:  基于 React 的 UI 框架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kungua/tiaozhu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kungua/tiaozhu/issues"
+  },
+  "homepage": "https://github.com/kungua/tiaozhu#readme"
+}

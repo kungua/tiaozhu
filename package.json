@@ -4,8 +4,8 @@
   "description": "跳珠:  基于 React 的 UI 框架",
   "main": "index.js",
   "scripts": {
-    "dev": "npx webpack-dev-server",
-    "build": "npx webpack"
+    "dev": "npx webpack-dev-server --config webpack.config.dev.js",
+    "build": "npx webpack --config webpack.config.prod.js"
   },
   "repository": {
     "type": "git",

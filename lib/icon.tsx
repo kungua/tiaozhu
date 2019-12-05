@@ -1,4 +1,5 @@
 import React from "react";
+import './icon.scss';
 import './importAllIcons';
 
 interface iconProps {
@@ -7,7 +8,7 @@ interface iconProps {
 
 const Icon: React.FunctionComponent<iconProps> = (props) => {
   return (
-    <svg>
+    <svg className="tz-icon">
       <use xlinkHref={`#${props.name}`}/>
     </svg>
   );

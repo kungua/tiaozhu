@@ -40,11 +40,11 @@
     "noUnusedLocals": true
   },
   "include": [
+    "lib/**/*",
+    "lib/types/**/*"
     //    "example.tsx",
-    //    "lib/**/*",
     //    "include/**/*",
     //    "examples/**/*",
-    //    "types/**/*",
     //    "test/**/*"
   ],
   "exclude": [

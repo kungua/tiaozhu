@@ -1,4 +1,5 @@
 import React from "react";
+import './importAllIcons';
 
 interface iconProps {
   name: string
@@ -6,7 +7,9 @@ interface iconProps {
 
 const Icon: React.FunctionComponent<iconProps> = (props) => {
   return (
-    <span>{props.name}</span>
+    <svg>
+      <use xlinkHref={`#${props.name}`}/>
+    </svg>
   );
 };
 export default Icon;

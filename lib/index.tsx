@@ -1,6 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Button from "./button";
+import Icon from "./icon";
 
-ReactDOM.render(<Button></Button>, document.querySelector('#root'));
-console.log('hi3');
+ReactDOM.render(<div>
+  <Icon name="baidu"/>
+  <Icon name="wechat"/>
+  <Icon name="alipay"/>
+  <Icon name="loading"/>
+  <Icon name="left"/>
+  <Icon name="right"/>
+</div>, document.querySelector('#root'));

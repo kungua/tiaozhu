@@ -4,7 +4,7 @@ import './importAllIcons';
 
 interface iconProps {
   name: string,
-  onClick?: () => void
+  onClick?: React.MouseEventHandler<SVGElement>
 }
 
 const Icon: React.FunctionComponent<iconProps> = (props) => {
